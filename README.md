@@ -1,4 +1,4 @@
-# Depok Residential Property Market Analysis (2026) 🏡
+# Depok Residential Property Market Analysis (2026) 
 
 Work in Progress (Phase 1: Data Cleaning Completed)
 
