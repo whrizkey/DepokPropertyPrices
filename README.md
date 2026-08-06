@@ -28,10 +28,17 @@ Real estate data scraped from Indonesian property portals is notoriously messy. 
 3.  **Outlier Mitigation:**
     *   Filtered out severe scraping errors (e.g., properties resulting in > 20 bedrooms) by converting them to `NaN` for later imputation or removal.
 
-## Next Steps (Upcoming)
-- [ ] **Exploratory Data Analysis (EDA):** Price per sqm calculations and district-level aggregations.
-- [ ] **Data Visualization:** Heatmaps and distribution plots using Seaborn/Plotly.
-- [ ] **Insights Generation:** Determining the premium associated with specific districts or property features.
+##  Phase 2 Progress: EDA & Interactive Visualization
+With the data cleaned, the project transitioned into Exploratory Data Analysis (EDA) and visualization. I built an interactive **Power BI** dashboard to explore price-per-sqm calculations, market spread, and district-level aggregations.
 
----
+
+<img width="1545" height="1049" alt="Screenshot 2026-08-06 at 13 37 32" src="https://github.com/user-attachments/assets/35e7cac9-ee70-4540-a9f4-8f2cbce70940" />
+<img width="1549" height="983" alt="Screenshot 2026-08-06 at 13 38 08" src="https://github.com/user-attachments/assets/5efa323d-5ebc-4118-9f0c-8dbb4abc9417" />
+
+
+### Dashboard Features:
+* **Dynamic KPI Summary:** Cards displaying Total Market Listings, Median Property Price, and Median Price-per-m² that update instantly when filtering the data.
+* **District Liquidity:** Visualizing the volume of listings across all 37 Depok districts to highlight high-supply vs. exclusive neighborhoods.
+* **Market Spread Scatter Plot:** Mapping property scale against Pricing Tiers to spot market distributions and pricing clusters.
+
 *Explore the `notebooks/01_data_cleaning.ipynb` file to see the Python cleaning pipeline.*
